@@ -1,4 +1,4 @@
-# 江愷笙 <span style="color:red">(106062568)</span>
+# 江愷笙 <span style="color:black">(106062568)</span>
 
 # Homework1 report
 
@@ -8,6 +8,7 @@ TA: try to elaborate the algorithms that you implemented and any details worth m
 This homework is related to UC Berkerly cs294 MDPs.
 
 > Markov Decision Process is a discrete time stochastic control process. At each time step, the process is in some state s, and the decision maker may choose any action a that is available in state s. The process responds at the next time step by randomly moving into a new state s', and giving the decision maker a corresponding reward R(s,a,s')
+
 ## Implementation
 In this homework we have to implement value iteration, policy iteration and tabular Q-learning. In value and policy iteration, we use a grid world which simulate a frozen lake with goal and hole on it. For an action on a specific state, mdp.P[state][action] will return all possible next state and the probability and reward accordingly.
 * Value Iteration
@@ -17,7 +18,7 @@ For value iteration, we have to implement two math equation below.
 <table border=1>
 <tr>
 <td>
-<img src="imgs/value_1.PNG"/>
+<img src="https://raw.githubusercontent.com/petersci/homework2-MDPs/master/imgs/value_1.PNG"/>
 <img src="imgs/value_2.PNG"/>
 </td>
 </tr>
